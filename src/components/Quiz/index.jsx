@@ -80,6 +80,7 @@ const Quiz = ({
 				<QuizTimer
 					pageState={pageState}
 					setPageState={setPageState}
+					activeUser={activeUser}
 					score={score}
 					setScore={setScore}
 					setOptionChosen={setOptionChosen}

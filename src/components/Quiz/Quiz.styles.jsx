@@ -12,6 +12,22 @@ export const Content = styled.div`
 	padding: 1rem;
 `
 
+export const Copywrite = styled.div`
+	color: var(--blue);
+	text-align: center;
+	margin-top: 4rem;
+
+	h1 {
+		font-size: 2.2rem;
+		margin-bottom: 1rem;
+	}
+
+	span {
+		color: var(--dark-blue);
+		font-weight: 700;
+	}
+`
+
 export const StartButton = styled.button`
 	font-weight: 700;
 	font-size: 1rem;
@@ -22,7 +38,7 @@ export const StartButton = styled.button`
 	border-radius: 7px;
 	background: var(--blue);
 	align-self: center;
-	margin-top: 10rem;
+	margin-top: 3rem;
 
 	:hover,
 	:active,
